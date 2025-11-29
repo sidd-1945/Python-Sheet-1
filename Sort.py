@@ -1,0 +1,52 @@
+a,b,c = map(int,input().split()) 
+if a>b: 
+    if a>c: 
+        if b>c: 
+            print(c) 
+            print(b) 
+            print(a) 
+            print()
+            print(a) 
+            print(b) 
+            print(c) 
+        else: 
+            print(b) 
+            print(c) 
+            print(a)
+            print() 
+            print(a) 
+            print(b) 
+            print(c) 
+    else: 
+        print(b) 
+        print(a) 
+        print(c)
+        print() 
+        print(a) 
+        print(b) 
+        print(c) 
+elif b>c: 
+    if a>c: 
+        print(c) 
+        print(a) 
+        print(b)
+        print() 
+        print(a) 
+        print(b) 
+        print(c) 
+    else: 
+        print(a) 
+        print(c) 
+        print(b)
+        print() 
+        print(a) 
+        print(b) 
+        print(c) 
+else: 
+    print(a) 
+    print(b) 
+    print(c)
+    print() 
+    print(a) 
+    print(b) 
+    print(c)
